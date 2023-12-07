@@ -1,0 +1,92 @@
+body {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    background: url(img/fon1.png) no-repeat center;
+    background-size: 1280px;
+    height: 100%;
+    color: black;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-bottom: 200px;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+        font-size: 20px;
+
+
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 63px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 62px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 0;
+        margin-left: 50px;
+
+    font-family: Arial;
+}
+
+.main-text2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 62px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+        margin-left: 50px;
+
+    font-family: Arial;
+
+}
+
+
+.button-order {
+    all: unset;
+    background-color: #8364a3;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 19px;
+    padding: 50px 55px;
+    color: white;
+
+    font-family: Comic Sans Ms;
+    margin-top: 150px;
+    margin-left: 120px
+}
+
+
+
+.main {
+    max-width: 600px;
+
+
+}
+
+
+
+*/
